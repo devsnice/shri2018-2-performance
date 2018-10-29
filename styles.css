@@ -1,4 +1,3 @@
-
 .adjust-bar {
   -webkit-appearance: none;
   appearance: none;
@@ -38,7 +37,8 @@
 .adjust-bar__container_theme_temp {
   position: relative;
 }
-.adjust-bar__container_theme_temp::before, .adjust-bar__container_theme_temp::after {
+.adjust-bar__container_theme_temp::before,
+.adjust-bar__container_theme_temp::after {
   color: #fff;
   font-size: 18px;
   font-weight: 700;
@@ -48,18 +48,19 @@
   pointer-events: none;
 }
 .adjust-bar__container_theme_temp::before {
-  content: '–10';
+  content: "–10";
   left: 15px;
 }
 .adjust-bar__container_theme_temp::after {
-  content: '+30';
+  content: "+30";
   right: 15px;
 }
 .adjust-bar__container_theme_light {
   position: relative;
 }
-.adjust-bar__container_theme_light::before, .adjust-bar__container_theme_light::after {
-  content: '';
+.adjust-bar__container_theme_light::before,
+.adjust-bar__container_theme_light::after {
+  content: "";
   position: absolute;
   z-index: 1;
   pointer-events: none;
@@ -151,7 +152,7 @@
   margin-right: 15px;
 }
 .devices::after {
-  content: '';
+  content: "";
   display: inline-block;
   min-width: 25px;
 }
@@ -289,13 +290,16 @@
   align-items: center;
   height: 80%;
 }
-.link, .link:active, .link:visited {
+.link,
+.link:active,
+.link:visited {
   color: rgba(51, 51, 51, 0.6);
 }
 .link {
   text-decoration: none;
 }
-.link_active, .link:hover {
+.link_active,
+.link:hover {
   color: inherit;
 }
 .logo {
@@ -334,7 +338,7 @@
   padding: 0 20px 0 25px;
   display: flex;
   justify-content: space-between;
-  background: url("assets/sh.png") center center/cover no-repeat;
+  background: url("assets/sh.jpg") center center/cover no-repeat;
 }
 .main__greeting {
   margin-top: 6px;
@@ -345,7 +349,7 @@
   width: 61.585%;
   padding-top: 20px;
   padding-left: 20px;
-  background: rgba(255,255,255,0.6);
+  background: rgba(255, 255, 255, 0.6);
 }
 .main__panel {
   margin-bottom: 14px;
@@ -423,7 +427,7 @@
   padding-right: 32px;
 }
 .modal__value_temp {
-  background: url("assets/panel__icon_temp_on.svg") calc(100% + 10px) 0%/contain no-repeat;
+  background: url("assets/panel__icon_temp_on.svg") calc(100% + 10px) 0% / contain no-repeat;
 }
 .modal__value_light {
   height: 45px;
@@ -461,7 +465,7 @@
   from {
     transform: scale(0.2);
   }
-to-transform: scale(1);
+  to-transform: scale(1);
 }
 * {
   box-sizing: border-box;
