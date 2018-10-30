@@ -1,3 +1,6 @@
+@import url("./fonts/pt_sans.css");
+
+
 .adjust-bar {
   -webkit-appearance: none;
   appearance: none;
@@ -10,6 +13,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .adjust-bar::-webkit-slider-thumb {
   -webkit-appearance: none;
@@ -338,7 +342,7 @@
   padding: 0 20px 0 25px;
   display: flex;
   justify-content: space-between;
-  background: url("assets/sh.png") center center/cover no-repeat;
+  background: url("assets/sh.webp") center center/cover no-repeat;
 }
 .main__greeting {
   margin-top: 6px;
@@ -350,6 +354,7 @@
   padding-top: 20px;
   padding-left: 20px;
   background: rgba(255, 255, 255, 0.6);
+  font-family: "PT Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .main__panel {
   margin-bottom: 14px;
