@@ -1,3 +1,4 @@
+@import url("./fonts/pt_sans.css");
 
 .adjust-bar {
   -webkit-appearance: none;
@@ -626,3 +627,34 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #222222;
+  background-color: #ffffff;
+}
+
